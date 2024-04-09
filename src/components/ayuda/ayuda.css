@@ -1,0 +1,80 @@
+
+.ayuda{
+    background-color: rgb(90, 45, 45);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+}
+
+.ayuda h2{
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 200;
+    margin: 40px;
+
+}
+
+
+.ayudaCards{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+
+}
+.pasos{
+    width: 400px;
+    color: white;
+    font-family: 'Inter', sans-serif;
+    text-align: center;
+}
+.pasos img{
+    width: 100px;
+    margin: 20px;
+
+}
+
+.pasos h3{
+    font-size: 15px;
+    color: rgb(226, 201, 7);
+}
+.pasos h1{
+font-weight: 600;
+font-size: 30px;
+margin: 10px;
+
+}
+.pasos p{
+    font-weight: 100;
+    font-size: 15px;
+}
+@media (max-width: 600px)  {
+    .pasos{width: 100%;}
+  .ayuda h1{
+    font-size: 20px; 
+    margin-top: 10px;
+  }
+  .pasos p{
+    margin: 10px;
+  }
+  .ayuda h2{
+    font-size: 20px; 
+    margin-top: 40px;
+  }
+  .ayudaCards{
+    display: flex ;
+    flex-direction: column;
+    margin: 0px;
+
+}
+  .pasos img{
+    width: 50px;
+    margin: 10px;
+
+}
+
+}

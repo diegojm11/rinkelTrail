@@ -1,0 +1,118 @@
+.leadImg {
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    position: relative;
+    background-image: url('../../assets/img/remolque.jpg') ; 
+    display: flex ;
+    justify-content: start;
+    align-items: end;
+    
+  
+    transition: all 1s;
+    
+    box-shadow: 0px 11px 5px -5px rgba(0,0,0,0.26);
+}
+
+
+
+.textoBannerContainer{
+    display: flex ;
+    
+    padding: 40px;
+    
+}
+.textoBanner{
+
+    padding-inline-start: 20px;
+
+    position: relative;
+    
+    
+   
+    
+}
+.textoBanner img {
+    filter: drop-shadow(2px 2px 4px rgb(60, 19, 19));
+    
+    animation: move;
+    animation-duration: 3s;
+    
+    
+    
+    
+}
+
+
+
+
+.leadImg h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align:start  ;
+    font-size: 35px;
+    color: rgb(250, 248, 248);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+    animation: move;
+    animation-duration: 3s;
+    
+
+}
+
+
+.enterBtn {
+    padding-right: 100px;
+    padding-bottom: 30px;
+    
+}
+.enterBtn button {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    height: 60px;
+    width: 200px;
+    border: 2px solid;
+    border-color: rgba(47, 37, 37, 0.534);
+    border-radius: 10px;
+    color: #d8d8d8;
+    background-color: rgba(0, 0, 0, 0.418);
+    
+}
+
+.enterBtn button:hover{
+    color: white;
+    background-color: rgba(86, 29, 29, 0.784);
+}
+
+
+
+.achicarImg{
+    border-radius: 10px;
+    transform: scale(0.99) ;
+}
+
+@keyframes move {
+    from {
+        transform: translateX(-700px);
+    }
+    to{
+        transform: translateX(0px);
+    }
+}
+
+@media (max-width: 600px)  {
+    
+    .textoBanner img {
+        height: 70px;
+        
+        
+    }
+    
+    
+    .leadImg h1{
+
+        font-size: 40px;
+
+    
+    }
+}

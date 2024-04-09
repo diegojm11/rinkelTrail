@@ -1,0 +1,74 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sliderContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--background-color);
+
+}
+
+#lema{
+    display: flex ;
+    justify-content: center;
+    align-items: center;
+}
+
+#lema h4{ 
+    padding: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    font-size: 40px;
+    color: var(--titulos-color);
+     text-align: center;
+     
+    margin-bottom: 80px;
+    
+}
+
+
+
+.slider{
+    position: relative;
+    height: 12rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 .8rem 2.4rem -.2rem rgba(0, 0, 0, 0.422) ;
+}
+
+:root {
+    --total-brand: 11;
+    --logo-width: 12rem ;
+    --total-logo-width: calc(var(--total-brand) * var(--logo-width) * 2);
+}
+.slider ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    animation: slideLeft 27s linear infinite;
+}
+@keyframes slideLeft {
+    100% {
+        transform: translateX(calc(-100% /2));
+    }
+}
+
+.slider ul li{
+   
+    margin: 30px;
+}
+
+.marcas-logo img{
+    width: 120px;
+}
+

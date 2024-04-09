@@ -1,0 +1,88 @@
+.cardContainer{
+    display: flex;
+    justify-content:center;
+  
+    
+}
+.card:hover {
+    transform: scale(1.1);
+ 
+    
+    box-shadow: 0 .8rem 1.4rem -.2rem rgba(0, 0, 0, 0.422) ;
+
+  }
+.cardContainer div{
+margin: 10px;
+background-color: rgb(125, 85, 85);
+color: rgb(255, 255, 255);
+padding: 5px;
+transition: all 2s;
+}
+
+
+.cardContainer div div h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight:600;
+    ;
+}
+
+
+.star{
+    color: white;
+    width: 30px;
+    
+}
+.precio{
+    display: flex;
+}
+.precio h5{
+    font-size: 40px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+.precio h4{
+    font-size: 10px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+
+}
+.detallePrecio{  
+
+height: 10px;
+display:grid;
+grid-template-columns: repeat(2, 2fr);
+grid-auto-rows: minmax(20px, auto);
+
+}
+.imgg{
+padding-top: 2px;
+
+}
+.imgg img{
+    width: 25px;
+
+}
+.OA{
+    grid-column: 1/1;
+    grid-row: 2
+}
+.detalleCard{
+    display: flex;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+.detalleCard img{
+    width: 25px;
+    margin-right: 5px;
+}
+
+@media (max-width: 600px){
+    .cardContainer{
+        display: flex;
+        flex-direction:column;
+        justify-content:center;
+       transform: scale(0.5);
+       margin: -350px;
+    }
+}
