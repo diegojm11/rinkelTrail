@@ -16,8 +16,11 @@
 }
 .barra {
     padding-left: 5vw;
+    
    
 }
+
+
 .barra nav{
    
     
@@ -55,6 +58,8 @@
     animation: lihover 1s forwards;
     
 }
+
+
 
 @keyframes lihover{
    100%{ transform: scale(1.1); }

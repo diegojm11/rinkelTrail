@@ -1,5 +1,4 @@
-import logoRinkel from '../../assets/img/logoRinkel.png'
-import NavBar from '../navBar/navbar'
+import logoRinkel from '../../assets/img/logoRinkel.png';
 import './banner.css'
 
 const Banner = () => {
