@@ -1,11 +1,4 @@
-import './cardNosotros.css'
-import nosotros1 from '../../assets/img/nosotros1.jpg'
-import nosotros2 from '../../assets/img/nosotros2.jpg'
-import nosotros3 from '../../assets/img/nosotros3.jpg'
-import nosotros4 from '../../assets/img/nosotros4.jpg'
-import nosotros5 from '../../assets/img/nosotros5.jpg'
-import nosotros6 from '../../assets/img/nosotros6.jpg'
-import callCenter from '../../assets/img/callcenter.svg'
+import './cardNosotros.css';
 import car from '../../assets/img/car.svg'
 import hs from '../../assets/img/hs.svg'
 import camion from '../../assets/img/camion.svg'
