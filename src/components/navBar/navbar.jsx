@@ -4,10 +4,10 @@ import {HashLink as Link} from 'react-router-hash-link'
 const NavBar =() => {
 
   const navEl = document.querySelector('.navbar');
-  window.addEventListener('scroll', ()=>{
-    if (window.scrollY > 30){
+  document.body.addEventListener('scroll', ()=>{
+    if (document.body.scrollY > 30){
       navEl.classList.add('navbar-scrolled')
-    } else if (window.scrollY < 30){
+    } else if (document.body.scrollY < 30){
       navEl.classList.remove('navbar-scrolled')
     }
   })
