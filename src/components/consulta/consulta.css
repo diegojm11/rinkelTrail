@@ -1,15 +1,26 @@
-.contactoContainer{
+.contactoContainer1{
 
     background-color: var(--background-color);
     display: flex;
     flex-direction:column;
     align-items: start;
     justify-content: start;
-    height: 100vh;
+    height: 200vh;
+
+}
+.contactoContainer2{
+    width: 100%;
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction:column;
+    align-items: end;
+    justify-content:end;
+
+    height: 130vh;
 
 }
 .consulta{
-    
+    padding-top: 80px;
     background-color: var(--background-color);
     color: var(--titulos-color);
     
@@ -165,7 +176,7 @@ transform: scale(1);
 }
 
 @media (max-width: 600px){
-    .contactoContainer{
+    .contactoContainer1{
         transform: scale(0.7);
         flex-wrap: wrap;
         margin: -130px;

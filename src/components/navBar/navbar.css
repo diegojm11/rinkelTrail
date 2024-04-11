@@ -14,23 +14,34 @@
     
     
 }
-.barra {
-    padding-left: 5vw;
-    
-   
+
+
+.barra{
 }
-
-
-.barra nav{
-   
-    
+.barra nav{z-index: 100;
+    width: 100%;
+    position: fixed;
     border-bottom: 2px solid ;
     border-color: rgb(152, 28, 28);
     
+    transition: all 1s;
 
 }
 
+.barra nav div div ul{
+    list-style-type: none;
+    display: flex;
+    
 
+}
+
+.barra nav div div ul li{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 20px 1px 20px;
+    text-decoration: none;
+}
 .barra a{
     font-size: 15px;
     font-family: 'Inter', sans-serif;
@@ -75,9 +86,6 @@
 
 }
 
-.navbar{
-    transition: all 1s;
-}
 
 .navbar-scrolled{
     background-color: rgba(0, 0, 0, 0.722);

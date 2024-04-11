@@ -1,36 +1,59 @@
 import './banner2.css'
 import flotaPropia from '../../assets/img/flotaPropia.jpg'
+import { useEffect } from 'react';
+import { useState } from 'react';
  const Banner2 = () => {
+
+    const [hiddenElements, setHiddenElements] = useState([]);
+
+    useEffect(()=>{
+        
+    const hiddenElements = document.querySelectorAll('.hidden');
 
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) =>{
-            console.log(entry)
             if (entry.isIntersecting){
                 entry.target.classList.add('show');
             } else{
                 entry.target.classList.remove('show')
             }
-        })
-    })
+        });
+    });
 
-    const hiddenElements = document.querySelectorAll('.hidden');
     hiddenElements.forEach((el) => observer.observe(el));
-    
+  
+    return () => {
+      hiddenElements.forEach((el) => observer.unobserve(el));
+    };
 
+    }, []);
+
+
+    useEffect(()=>{
+        
+        const hiddenElements = document.querySelectorAll('.hidden2');
     
-    const observer2 = new IntersectionObserver((entries) => {
-        entries.forEach((entry) =>{
-            console.log(entry)
-            if (entry.isIntersecting){
-                entry.target.classList.add('show2');
-            } else{
-                entry.target.classList.remove('show2')
-            }
+        const observer2 = new IntersectionObserver((entries) => {
+            entries.forEach((entry) =>{
+                console.log(entry)
+                if (entry.isIntersecting){
+                    entry.target.classList.add('show2');
+                } else{
+                    entry.target.classList.remove('show2')
+                }
+            })
         })
-    })
+    
+        hiddenElements.forEach((el) => observer2.observe(el));
+      
+        return () => {
+          hiddenElements.forEach((el) => observer2.unobserve(el));
+        };
+    
+        }, []);
 
-    const hiddenElements2 = document.querySelectorAll('.hidden2');
-    hiddenElements2.forEach((el) => observer2.observe(el));
+
+
     
 
     return (

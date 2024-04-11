@@ -1,9 +1,10 @@
 .leadImg {
+    
+    background-image: url('../../assets/img/remolque.jpg') ; 
     height: 100vh;
     overflow: hidden;
     background-size: cover;
-    position: relative;
-    background-image: url('../../assets/img/remolque.jpg') ; 
+   
     display: flex ;
     justify-content: start;
     align-items: end;

@@ -1,23 +1,34 @@
+import { useState } from 'react';
 import logoRinkel from '../../assets/img/logoRinkel.png';
 import './banner.css'
+import { useEffect } from 'react';
 
 const Banner = () => {
 
- 
-
-    const bannerEl = document.querySelector('.leadImg');
-    window.addEventListener('scroll', ()=>{
-      if (window.scrollY > 120){
-        bannerEl.classList.add('achicarImg')
-      } else if (window.scrollY < 120){
-        bannerEl.classList.remove('achicarImg')
+  const [bannerScrolled, setBannerScrolled] = useState(false);
+  
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 120) {
+        setBannerScrolled(true);
+      } else {
+        setBannerScrolled(false);
       }
-    })
+    };
+  
+    window.addEventListener('scroll', handleScroll);
+  
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+    
   
   
   
     return (
-        <div id='home' className='leadImg'>
+        <div id='home' className={`leadImg ${bannerScrolled ? 'achicarImg' : ''}`}>
               
                 <div className='textoBannerContainer '>    
                     <div className='textoBanner'>
