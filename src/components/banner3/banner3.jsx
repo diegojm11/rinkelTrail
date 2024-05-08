@@ -1,5 +1,5 @@
 import '../banner3/banner3.css'
-import Capture from '../../assets/img/Capture.JPG'
+import Capture from '../../assets/img/Capture.jpg'
 
 const Banner3 = () => {
     return(
