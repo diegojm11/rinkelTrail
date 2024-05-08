@@ -28,7 +28,7 @@ const CardNosotros = () => {
                 <div className='cardNosotrosCards3'>
                     <div className='cardNosotrosTexto'>
                         
-                        <h1>Flota Propia</h1>
+                        <h1>Flota Propia </h1>
                         <p>Nuestra flota y la de nuestros prestadores asociados es atendida en talleres y centro de mantenimiento propios.</p>
                     </div>
                 </div>  
