@@ -1,5 +1,5 @@
 import './banner2.css'
-import Capture from '../../assets/img/Capture.jpg'
+import Capture from '../../assets/img/capture.jpg'
 import { useEffect } from 'react';
 import { useState } from 'react';
  const Banner2 = () => {
