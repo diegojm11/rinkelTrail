@@ -1,6 +1,5 @@
 import '../banner3/banner3.css'
-import Capture from '../../assets/img/Capture.jpg'
-import Nosotros1 from '../../assets/img/Nosotros1.jpg'
+import Capture from '../../assets/img/Capture.JPG'
 
 const Banner3 = () => {
     return(
