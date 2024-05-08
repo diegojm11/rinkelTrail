@@ -1,5 +1,7 @@
 import './navbar.css'
-import Sun from '../../assets/img/sun.svg'
+
+import RinkelLogobl from '../../assets/img/rinkellogobl.png'
+import RinkelLogo from '../../assets/img/rinkellogo.png'
 import {HashLink as Link} from 'react-router-hash-link'
 import { useState } from 'react';
 import { useEffect } from 'react';
@@ -39,6 +41,7 @@ const NavBar =() => {
               
 
                 <div class="collapse navbar-collapse  " id="navbarNav">
+                 
                   <ul  >
                     <li >
                       <Link to='#nosotros' class="nav-link " aria-current="page">
@@ -49,19 +52,14 @@ const NavBar =() => {
                     <li>
                       <Link to="#nosEligen"  class="nav-link " aria-current="page" >Nos eligieron </Link>
                     </li>
-                  
-
-                  
                   </ul>
-                  <div className='rinkelBrand' >
-                    <img src={Sun} alt="" />
-                    <a class="navbar-brand" >Rinkel Trail</a>
+                
+                  <div className= {`rinkelBrand ${navbarScrolled ? '' : 'logo-scrolled'}`} >
+                    <img src={RinkelLogo} alt="" />
                   </div>
 
 
-                  <ul > 
-                 
-                    
+                  <ul className='ulDerecha'> 
                     <li >
                       <Link to="#contacto"  class="nav-link " aria-current="page">Contacto </Link>
                     </li>
@@ -71,6 +69,7 @@ const NavBar =() => {
                     </li>
                     
                   </ul>
+
                 </div>
                 
                 

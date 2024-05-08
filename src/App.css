@@ -1,5 +1,6 @@
 .app{
-    scroll-behavior: smooth;
+    scroll-behavior: smooth  ; 
+    overscroll-behavior-y: contain;
 }
 *{
     margin: 0;

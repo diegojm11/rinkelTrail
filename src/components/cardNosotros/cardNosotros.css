@@ -1,18 +1,58 @@
 .cardNosotrosContainer{
     width: 100%;
-    height: 100%;
+    height: 100vh;
     gap: 10px;
-    display: flex ;
-    flex-wrap: wrap;
-    
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content:space-between;
     
 }
-.cardNosotrosCards{
-    width: 330px;
+.cardNosotrosCards1{
+    background-image: url('../../assets/img/atencion24hs.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    height: 532px;
     position: relative;
     overflow: hidden; 
     border-radius: 10px;
+    transition: all 1s;
+    
+}
+.cardNosotrosCards1:hover {height: 1500px;
+}
+
+
+.cardNosotrosCards2{
+    background-image: url('../../assets/img/capture2.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    height: 532PX;
+    position: relative;
+    overflow: hidden; 
+    border-radius: 10px;
+    
+    transition: all 1s;
+}
+.cardNosotrosCards2:hover {height: 1500px;
+}
+
+
+.cardNosotrosCards3{
+    background-image: url('../../assets/img/Nosotros1.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 800px;
+    height: 532PX;
+    position: relative;
+    overflow: hidden; 
+    border-radius: 10px;
+    transition: all 1s;
+}
+
+.cardNosotrosCards3:hover {height: 1500px;
 }
 
 
@@ -21,68 +61,100 @@
     color:rgb(0, 0, 0);
  
     display: block;
-    width: 90%;
+    width: 100%;
+    height: 100%;
     padding: 20px;    
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    
+    transition: all 1s;
+        
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    background-image: radial-gradient(circle at 50% 100%, rgba(235, 235, 235, 0.322), rgba(255, 255, 255, 0))
+    
+ 
 }
-.cardNosotrosCards img{
-    width: 90px;
-    margin-bottom: 10px;
-    margin-left: 7px;
-    overflow: hidden;
-    transform: scale(0.7)
+
+.cardNosotrosTexto:hover{
+    color: white;
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    background-image: radial-gradient(circle at 50% 100%, rgba(0, 0, 0, 0.785), rgba(255, 255, 255, 0))
 }
+
 
 
 .cardNosotrosTexto h1{
     font-family: 'Inter', sans-serif;
-    font-weight: 600;
+    font-weight: 800;
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
+    margin-top: 50px;
     
    
 
 }
+
+
 .cardNosotrosTexto p{
     font-family: 'Inter', sans-serif;
-    font-weight: 200;
-    font-size: 18px;
+    font-weight: 400;
+    font-size: 25px;
     text-align: center;
     overflow: hidden;
-    transform: translateY(20rem);
+    transform: translateY(200px);
+   
+   
 
 }
 
-.cardNosotrosCards:hover img{
-animation: show-img 1s forwards;
-}
-@keyframes show-img{
-   100%{ transform: scale(1.1);}
-}
 
-.cardNosotrosCards:not(:hover) img{
-    animation: notshow-img 2s forwards;
+
+
+
+
+
+.cardNosotrosCards1:hover h1,
+.cardNosotrosCards2:hover h1,
+.cardNosotrosCards3:hover h1 {
+    animation: tamano 1s forwards;
+    
     }
-    @keyframes notshow-img{
+
+    @keyframes tamano{
+       100%{ transform: scale(0.8); 
         
-        0%{ transform: scale(1.1);}
-       
+    }
     }
 
 
+.cardNosotrosCards1:not(:hover)  h1,
+.cardNosotrosCards2:not(:hover)  h1,
+.cardNosotrosCards3:not(:hover)  h1{
+        animation: notamano 1s forwards;
+        }
 
-.cardNosotrosCards:hover p{
+        @keyframes notamano{
+           0%{transform: scale(0.8);}
+        }
+
+.cardNosotrosCards1:hover p,
+.cardNosotrosCards2:hover p,
+.cardNosotrosCards3:hover p{
     animation: show-img 1s forwards;
+    
     }
     @keyframes show-img{
        100%{ transform: translateY(0rem);}
     }
 
         
-.cardNosotrosCards:not(:hover) p{
+.cardNosotrosCards1:not(:hover) p,
+.cardNosotrosCards2:not(:hover) p,
+.cardNosotrosCards3:not(:hover) p{
     animation: notshow-p 1s forwards;
     }
     @keyframes notshow-p{ 
@@ -94,26 +166,17 @@ animation: show-img 1s forwards;
 
 
 
-.cardNosotrosCards:hover h1{
-        animation: tamano 1s forwards;
-        }
 
-        @keyframes tamano{
-           100%{ transform: scale(0.8); }
-        }
-
-
-.cardNosotrosCards:not(:hover) h1{
-            animation: notamano 1s forwards;
-            }
-    
-            @keyframes notamano{
-               0%{transform: scale(0.8);}
-            }
     
          
 
 
+
+
+
+
+
+            
 @media (max-width: 600px)  {
     .cardNosotrosContainer {
         transform: scale(0.5);

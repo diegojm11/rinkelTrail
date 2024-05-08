@@ -1,5 +1,7 @@
 import './banner2.css'
 import flotaPropia from '../../assets/img/flotaPropia.jpg'
+
+import Capture from '../../assets/img/Capture.jpg'
 import { useEffect } from 'react';
 import { useState } from 'react';
  const Banner2 = () => {
@@ -62,16 +64,16 @@ import { useState } from 'react';
             <div  id='textoeimagen'  >
 
                     <div id='fotoInstitucionalRinkel' className='hidden2' >
-                        <img src={flotaPropia} alt="" />
+                        <img src={Capture} alt="" />
                     </div>
                 
                     <div   id='textBox' className='hidden' >
-                        <h1> Nosotros</h1>
-                        <p>
-                        EN 2001 CREAMOS RINKEL. NOS PROPUSIMOS CONVERTIRNOS EN ESPECIALISTAS EN ASISTENCIA VEHICULAR, BRINDANDO UN SERVICIO DE EXELENCIA.
-                            HOY SOMOS UNA EMPRESA NACIONAL QUE SIGUE CRECIENDO. CON FLOTA PROPIA, RED DE PRESTADORES DE PRIMER NIVEL Y UNA AMPLIA COBERTURA EN ARGENTINA Y PAISES LIMITROFES.
-                            </p>
-                    </div>
+                    <p>En 2001 creamos rinkel. Nos propusimos convertirnos en especialistas en asistencia vehicular, brindando un servicio de excelencia. 
+                        Hoy somos una empresa nacional que sigue creciendo.
+                        </p>
+                         </div>
+
+                    
            
             </div>
 

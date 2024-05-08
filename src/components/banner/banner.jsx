@@ -30,7 +30,8 @@ const Banner = () => {
     return (
         <div id='home' className={`leadImg ${bannerScrolled ? 'achicarImg' : ''}`}>
               
-                <div className='textoBannerContainer '>    
+                <div className='textoBannerContainer '>  
+                  
                     <div className='textoBanner'>
                         <img src={logoRinkel} alt="" />
                         <h1>Servicios de Asistencia Vehicular</h1>

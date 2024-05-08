@@ -1,13 +1,13 @@
 .leadImg {
     
-    background-image: url('../../assets/img/remolque.jpg') ; 
+    background-image: url('../../assets/img/remolque1.jpg') ; 
     height: 100vh;
     overflow: hidden;
     background-size: cover;
    
     display: flex ;
-    justify-content: start;
-    align-items: end;
+    justify-content: center;
+    align-items: start;
     
   
     transition: all 1s;
@@ -19,27 +19,21 @@
 
 .textoBannerContainer{
     display: flex ;
+    padding: 90px;
     
-    padding: 40px;
     
 }
+
 .textoBanner{
-
-    padding-inline-start: 20px;
-
-    position: relative;
-    
     
    
     
 }
 .textoBanner img {
     filter: drop-shadow(2px 2px 4px rgb(60, 19, 19));
-    
+    height: 125px;
     animation: move;
     animation-duration: 3s;
-    
-    
     
     
 }
@@ -50,8 +44,8 @@
 .leadImg h1{
     font-family: 'Inter', sans-serif;
     font-weight: 400;
-    text-align:start  ;
-    font-size: 35px;
+    text-align:center  ;
+    font-size: 30px;
     color: rgb(250, 248, 248);
     text-shadow: 2px 2px 4px rgb(0, 0, 0);
     animation: move;
