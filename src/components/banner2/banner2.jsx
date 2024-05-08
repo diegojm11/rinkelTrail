@@ -1,6 +1,4 @@
 import './banner2.css'
-import flotaPropia from '../../assets/img/flotaPropia.jpg'
-
 import Capture from '../../assets/img/Capture.jpg'
 import { useEffect } from 'react';
 import { useState } from 'react';
