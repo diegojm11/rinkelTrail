@@ -9,7 +9,7 @@ const CardNosotros = () => {
                     <div className='cardNosotrosTexto'>
                         
                         
-                        <h1>Atención 24/7.</h1>
+                        <h1>Atención 24/7</h1>
                         <p>El centro de operaciones con call center y despatch desk trabaja 24hs los 365 dias del año para
                              nuestros clientes transformando llamados en asistencias.</p>
                     </div>

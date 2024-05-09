@@ -49,7 +49,10 @@
     background-color: #d6d6d65d;
     border-radius: 20px;
     padding: 20px;
-     box-shadow: 7px 11px 5px -5px rgba(0,0,0,0.26);
+    
+    box-shadow: 5px 11px 5px -5px rgba(0,0,0,0.26);
+    background-image: radial-gradient(circle at 60% 5%, rgba(94, 58, 58, 0.19), rgba(255, 255, 255, 0))
+
 }
  
 .contenedorinbox{

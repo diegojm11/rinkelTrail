@@ -1,5 +1,6 @@
 import './banner2.css'
 import Capture from '../../assets/img/capture.jpg'
+import Capturepng from '../../assets/img/capture.png'
 import { useEffect } from 'react';
 import { useState } from 'react';
  const Banner2 = () => {
@@ -62,7 +63,7 @@ import { useState } from 'react';
             <div  id='textoeimagen'  >
 
                     <div id='fotoInstitucionalRinkel' className='hidden2' >
-                        <img src={Capture} alt="" />
+                        <img src={Capturepng} alt="" />
                     </div>
                 
                     <div   id='textBox' className='hidden' >
