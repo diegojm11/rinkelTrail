@@ -1,9 +1,5 @@
 import './navbar.css'
-
-import RinkelLogobl from '../../assets/img/rinkellogobl.png'
-
 import RinkelLogocl from '../../assets/img/rinkellogoclaro.png'
-import RinkelLogo from '../../assets/img/rinkellogo.png'
 import {HashLink as Link} from 'react-router-hash-link'
 import { useState } from 'react';
 import { useEffect } from 'react';

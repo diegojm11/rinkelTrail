@@ -7,7 +7,6 @@ import Footer from './components/footer/footer'
 import SlideBar from './components/slideBar/slideBar'
 import NavBar from './components/navBar/navbar'
 import Titulo from './components/titulo/titulo'
-import Banner3 from './components/banner3/banner3'
 import CardNosotros from './components/cardNosotros/cardNosotros'
 
 
