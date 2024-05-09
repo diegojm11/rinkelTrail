@@ -1,5 +1,4 @@
 import './banner2.css'
-import Capture from '../../assets/img/capture.jpg'
 import Capturepng from '../../assets/img/capture.png'
 import { useEffect } from 'react';
 import { useState } from 'react';
