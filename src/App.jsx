@@ -8,6 +8,7 @@ import SlideBar from './components/slideBar/slideBar'
 import NavBar from './components/navBar/navbar'
 import Titulo from './components/titulo/titulo'
 import CardNosotros from './components/cardNosotros/cardNosotros'
+import Mapa from './components/Mapa/mapa'
 
 
 function App() {
@@ -22,7 +23,9 @@ function App() {
               <CardNosotros/>
   
               <SlideBar/>
+              <Mapa/>
               <Consulta/>
+              
               <Footer/>
 
        </BrowserRouter>

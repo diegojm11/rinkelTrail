@@ -1,40 +1,49 @@
-.contactoContainer1{
-
-    background-color: var(--background-color);
+.consultaContainer{
+    
+    background-image: url('../../assets/img/fondoForm3.jpg');
+    background-position: 0%  ;
+    background-size:cover;
+    width: 100%;
     display: flex;
     flex-direction:column;
-    align-items: start;
-    justify-content: start;
-    height: 200vh;
+    
+    box-shadow: inset 0px 30px 30px 0px  rgba(0, 0, 0, 1.2);
 
 }
-.contactoContainer2{
-    width: 100%;
-    background-color: var(--background-color);
+.contactoContainer1{
+    
+    
     display: flex;
-    flex-direction:column;
-    align-items: end;
-    justify-content:end;
-
-    height: 130vh;
+    flex-direction: row;
+    align-items: start;
+    justify-content: end;
+     
+   
+}
+.contactoContainer2{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: start;
+    justify-content: start;    
 
 }
 .consulta{
+    color: white;
+    width: 40%;
     padding-top: 80px;
-    background-color: var(--background-color);
-    color: var(--titulos-color);
+
     
 }
 .consulta h1 {
-    font-size: 40px;
-    font-family: 'Inter', sans-serif;
-    font-weight: 400;
-    padding-left: 10px;
+    font-size: 70px;
+    font-family: 'lora', sans-serif;
+    font-weight: 200;
 }
 .consulta p{
     font-size: 20px;
     font-family: 'Inter', sans-serif;
-    font-weight: 200;
+    font-weight: 400;
     padding-left: 10px
 }
 
@@ -46,12 +55,9 @@
     width: 40vw;
     grid-template-columns: repeat(autofit,minmax(100%,1fr));
     margin: 30px;
-    background-color: #d6d6d65d;
     border-radius: 20px;
     padding: 20px;
-    
-    box-shadow: 5px 11px 5px -5px rgba(0,0,0,0.26);
-    background-image: radial-gradient(circle at 60% 5%, rgba(94, 58, 58, 0.19), rgba(255, 255, 255, 0))
+    color: white;
 
 }
  
@@ -67,6 +73,8 @@ margin: 12px;
 .motivo select{
     background-color: #35171700;
     border: 2px solid;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.479);
     font-size: 18px;
 }
 
@@ -78,6 +86,7 @@ margin: 12px;
     padding: 10px;
     border: none;
     outline: none;
+    color: white;
     border-bottom: 2px solid gray;
     font-family: 'Inter', sans-serif;;
 }
@@ -88,7 +97,7 @@ margin: 12px;
 .inputForm:not(:placeholder-shown) + .textoForm {
     transform: translateY(-12px) scale(.8);
     transform-origin: left top;
-    color: #736f6f;
+    color: #b55050;
 }
 .textoForm{
     cursor: pointer;
@@ -130,7 +139,7 @@ transform: scale(1);
 .mensaje:not(:placeholder-shown) + .textoForm {
     transform: translateY(-12px) scale(.8);
     transform-origin: left top;
-    color: #736f6f;
+    color: #b55050;
 }
 .mensaje{
     width: 100%;
@@ -140,6 +149,7 @@ transform: scale(1);
     padding: 10px;
     border: none;
     outline: none;
+    color: white;
     border-bottom: 2px solid gray;
     font-family: 'Inter', sans-serif;
     
@@ -168,13 +178,15 @@ transform: scale(1);
     color: white;
     font-family:'Inter', sans-serif;
     font-weight: 400;
-    width: 30%;
-    font-size: 1rem;
-    padding: 0.5rem;
+    width: 160px;
+    height: 60px;
+    
+    font-size: 1.4rem;
+
     
     margin: 20px;
     border: none;
-    border-radius: 5px;
+    border-radius: 40px;
     
 }
 
