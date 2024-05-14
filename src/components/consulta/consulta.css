@@ -174,7 +174,7 @@ transform: scale(1);
 }
 
 .boton{
-    background-color: #632525;
+    background-color: rgb(155, 57, 57);
     color: white;
     font-family:'Inter', sans-serif;
     font-weight: 400;
