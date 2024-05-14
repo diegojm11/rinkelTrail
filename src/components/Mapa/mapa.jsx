@@ -9,7 +9,17 @@ const Mapa = () => {
             <div className='mapaImg'>
                 <img src={mapaArg} alt="" />
             </div>
-
+            
+           <span className='punto1'></span>
+           <span className='punto1-'></span>
+           <span className='punto2'></span>
+           <span className='punto2-'></span>
+           <span className='punto3'></span>
+           <span className='punto3-'></span>
+           <span className='punto4'></span>
+           <span className='punto4-'></span>
+           <span className='punto5'></span>
+           <span className='punto5-'></span>
             <div className='tituloMapa'>
                 <h3>
                     Rinkel trail cuenta con una extensa flota de unidades propias que combinada con nuestra exclusiva red de prestadores asegura la cobertura en toda la argentina y paises limitrofes.
