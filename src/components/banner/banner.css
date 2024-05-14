@@ -21,14 +21,13 @@
     display: flex ;
     padding: 90px;
     
-    
 }
 
-.textoBanner{
-    
-   
-    
-}
+
+
+
+
+
 .textoBanner img {
     filter: drop-shadow(2px 2px 4px rgb(60, 19, 19));
     height: 125px;
