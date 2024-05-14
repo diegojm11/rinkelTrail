@@ -136,9 +136,17 @@
 .tituloMapa{
     width: 80%;
 }
+.mapa h2{
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    font-size: 23px;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    color: rgb(243, 13, 13);
+}
 .mapa h3{
     font-size: 40px;
     font-family: 'lora', sans-serif;
-    font-weight: 200;
-    color: white;
+    font-weight: 500;
+    color: rgb(240, 240, 240);
 }
