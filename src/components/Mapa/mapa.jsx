@@ -20,6 +20,8 @@ const Mapa = () => {
            <span className='punto4-'></span>
            <span className='punto5'></span>
            <span className='punto5-'></span>
+           
+           
             <div className='tituloMapa'>
 
                 <h2>C  O  B  E  R  T  U  R  A </h2>

@@ -69,7 +69,7 @@ const Consulta = () => {
        
     <div className='contactoContainer2'> 
             <div id='trabajaConNosotros' className='consulta'>
-                <h1>Interesado en icorporarte a nuestro equipo?</h1>
+                <h1>Interesado en incorporarte a nuestro equipo?</h1>
                 <p>Si sos prestador o profesional y queres formar parte, </p>
                 <p>completá tus datos y adjunta tu cv.</p>
             </div> 

@@ -7,11 +7,7 @@
     align-items:center;
 }
 
-.mapaImg{
-    width: 60%;
-    
-    
-}
+
 .punto1{
     position: absolute;
     background-color: rgb(176, 2, 2);
@@ -135,6 +131,13 @@
 }
 .tituloMapa{
     width: 80%;
+    
+}
+.mapaImg{
+    width: 60%;
+
+    
+    
 }
 .mapa h2{
     margin-bottom: 30px;
@@ -145,8 +148,8 @@
     color: rgb(243, 13, 13);
 }
 .mapa h3{
-    font-size: 40px;
-    font-family: 'lora', sans-serif;
-    font-weight: 500;
+    font-size: 34px;  
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
     color: rgb(240, 240, 240);
 }

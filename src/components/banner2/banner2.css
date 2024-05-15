@@ -25,11 +25,13 @@
 #fotoInstitucionalRinkel img{
     max-width: 100%;
     
+    margin-left: 90px;
+    
     
 }
 
 #textBox {
-    width: 50%;
+    width: 62%;
     height: 603px;
     display: flex;
     align-items: center;
@@ -52,7 +54,7 @@ color: var(--titulos-color);
     padding: 30px;
     font-size: 35px;
 
-font-family: "inter", serif;
+    font-family: "Titillium Web", sans-serif;
 margin-left: 30px;
 
 font-weight: 400;
