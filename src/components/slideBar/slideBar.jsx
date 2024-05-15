@@ -16,7 +16,7 @@ const SlideBar = () => {
     return (
         <div className='sliderContainer' id='nosEligen'>
 
-            <div id='lema' className='hidden'>
+            <div id='lema' >
                 <h4>Nuestro objetivo es la satisfacción total de quienes nos eligen.</h4>
             </div>
   
