@@ -17,6 +17,7 @@
     margin-left: -700px;
     margin-top: -190px;
 
+    animation: punto-loop 1.3s infinite;
 }
 .punto1-{
     position: absolute;
@@ -26,7 +27,7 @@
     border-radius: 100%;
     margin-left: -700px;
     margin-top: -190px;
-    animation: punto-loop 3s infinite;
+    animation: punto-loop 1.3s infinite;
 
 }
 
@@ -39,6 +40,11 @@
     border-radius: 100%;
     margin-left: -845px;
     margin-top: -105px;
+    
+    margin-left: -1008px;
+    
+    animation: punto-loop 3s infinite;
+    animation-delay: 1.5s;
 }
 .punto2-{
     position: absolute;
@@ -46,10 +52,11 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    margin-left: -845px;
+    margin-left: -1008px;
     margin-top: -105px;
+    
     animation: punto-loop 3s infinite;
-
+    animation-delay: 1.5s;
 }
 .punto3{
     position: absolute;
@@ -59,6 +66,9 @@
     border-radius: 100%;
     margin-left: -926px;
     margin-top: -392px;
+    
+    animation: punto-loop 3s infinite;
+    animation-delay: 1.0s;
 }
 .punto3-{
     position: absolute;
@@ -69,6 +79,7 @@
     margin-left: -926px;
     margin-top: -392px;
     animation: punto-loop 3s infinite;
+    animation-delay: 1.0s;
 
 }
 .punto4{
@@ -79,6 +90,9 @@
     border-radius: 100%;
     margin-left: -721px;
     margin-top: -330px;
+    
+    animation: punto-loop 3s infinite;
+    animation-delay: 1.8s;
 }
 .punto4-{
     position: absolute;
@@ -89,6 +103,7 @@
     margin-left: -721px;
     margin-top: -330px;
     animation: punto-loop 3s infinite;
+    animation-delay: 1.8s;
 
 }
 
@@ -100,6 +115,9 @@
     border-radius: 100%;
     margin-left: -990px;
     margin-top: 80px;
+    
+    animation: punto-loop 3s infinite;
+    animation-delay: 1.2s;
 }
 .punto5-{
     position: absolute;
@@ -110,6 +128,57 @@
     margin-left: -990px;
     margin-top: 80px;
     animation: punto-loop 3s infinite;
+    animation-delay: 1.2s;
+
+}
+
+.punto6{
+    position: absolute;
+    background-color: rgb(176, 2, 2);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-left: -990px;
+    margin-top: 300px;
+    
+    animation: punto-loop 3s infinite;
+
+}
+.punto6-{
+    position: absolute;
+    background-color: rgb(184, 19, 19);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-left: -990px;
+    margin-top: 80px;
+    animation: punto-loop 3s infinite;
+}
+
+.punto7{
+    position: absolute;
+    background-color: rgb(184, 19, 19);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-left: -905px;
+    margin-top: -600px;
+    
+    animation: punto-loop 3s infinite;
+    animation-delay: 0.2s;
+    
+}
+.punto7-{
+    position: absolute;
+    background-color: rgb(184, 19, 19);
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-left: -905px;
+    margin-top: -600px;;
+    
+    animation: punto-loop 3s infinite;
+    animation-delay: 0.2s;
 
 }
 

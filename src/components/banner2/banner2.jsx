@@ -66,7 +66,7 @@ import { useState } from 'react';
                     </div>
                 
                     <div   id='textBox' className='hidden' >
-                    <p>En 2001 creamos rinkel.<br></br> Nos propusimos convertirnos en especialistas en asistencia vehicular, brindando un servicio de excelencia.<br></br>    
+                    <p>En 2001 creamos rinkel.<br></br> Nos propusimos convertirnos en especialistas en asistencia vehicular, ser el socio de confianza de las compañías de seguros y de sus asegurados.<br></br>    
                          Hoy somos una empresa nacional que sigue creciendo.
                         </p>
                          </div>

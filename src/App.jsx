@@ -22,8 +22,8 @@ function App() {
               <Banner2/>
               <CardNosotros/>
   
-              <SlideBar/>
               <Mapa/>
+              <SlideBar/>
               <Consulta/>
               
               <Footer/>
