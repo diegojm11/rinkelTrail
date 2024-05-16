@@ -1,5 +1,5 @@
 import './mapa.css'
-import mapaArg from '../../assets/img/mapaArg.jpg'
+import mapaArg from '../../assets/img/mapaArg.png'
 
 
 const Mapa = () => {
