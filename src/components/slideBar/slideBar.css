@@ -47,7 +47,7 @@
 }
 
 :root {
-    --total-brand: 11;
+    --total-brand: 13;
     --logo-width: 12rem ;
     --total-logo-width: calc(var(--total-brand) * var(--logo-width) * 2);
 }
@@ -69,6 +69,6 @@
 }
 
 .marcas-logo img{
-    width: 120px;
+    width: 145px;
 }
 
