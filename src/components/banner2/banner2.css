@@ -42,14 +42,7 @@
     left:0;
 }
 
-.banner2 h1{
-font-size: 35px;
-font-family: "Lora", serif;
-font-style: normal;
-font-weight: 700;
-color: var(--titulos-color);
 
-}
 .banner2 p{
     padding: 30px;
     font-size: 35px;
@@ -64,6 +57,33 @@ color: rgba(255, 255, 255, 0.833);
 
 
 @media (max-width: 600px)  {
+    #fotoInstitucionalRinkel {
+    
+        width: 80%;
+    
+    }
+    #fotoInstitucionalRinkel img{
+        max-width: 195%;
+        margin-left: -150px;
+        
+        
+    }
+    .banner2{
+        height: 50vh;
+        display: flex;
+        align-items: start;  
+    }
+    #textoeimagen{
+        display: flex ;
+        overflow: hidden;
+        justify-content: start;
+       
+    }
+    
+    #textBox {
+    width: 62%;
+    height: 303px;
+    }
     
     .banner2 h1{
         font-size: 40px;
@@ -75,6 +95,25 @@ color: rgba(255, 255, 255, 0.833);
      
         
         }
+        .banner2 h1{
+            font-size: 35px;
+            font-family: "Lora", serif;
+            font-style: normal;
+            font-weight: 700;
+            color: var(--titulos-color);
+            
+            }
+            .banner2 p{
+                padding: 0px;
+                font-size: 15px;
+            
+                font-family: "Titillium Web", sans-serif;
+            margin-left: 30px;
+            
+            font-weight: 400;
+            color: rgba(255, 255, 255, 0.833);
+            
+            }
         
 }
 

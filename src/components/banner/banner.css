@@ -95,10 +95,14 @@
 }
 
 @media (max-width: 600px)  {
+    .leadImg{
+        background-image: url('../../assets/img/fondoForm3.jpg');
+        background-position: center center;
+    }
     
     .textoBanner img {
         height: 70px;
-        
+             
         
     }
     

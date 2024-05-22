@@ -5,26 +5,29 @@ import mapaArg from '../../assets/img/mapaArg.png'
 const Mapa = () => {
     return(
         <div className='mapa'>
-            
-            <div className='mapaImg'>
-                <img src={mapaArg} alt="" />
-            </div>
-            
-           <span className='punto1'></span>
-           <span className='punto1-'></span>
-           <span className='punto2'></span>
-           <span className='punto2-'></span>
-           <span className='punto3'></span>
-           <span className='punto3-'></span>
-           <span className='punto4'></span>
-           <span className='punto4-'></span>
-           <span className='punto5'></span>
-           <span className='punto5-'></span>
-           <span className='punto6'></span>
-           <span className='punto6-'></span>
-           <span className='punto7'></span>
-           <span className='punto7-'></span>
            
+            <div className='mapaBox'>
+                <div className='mapaImg'>
+                            <img src={mapaArg} alt="" />
+                </div>
+                <div className='puntosBox'>
+                        <span className='punto1'></span>
+                        <span className='punto1-'></span>
+                        <span className='punto2'></span>
+                        <span className='punto2-'></span>
+                        <span className='punto3'></span>
+                        <span className='punto3-'></span>
+                        <span className='punto4'></span>
+                        <span className='punto4-'></span>
+                        <span className='punto5'></span>
+                        <span className='punto5-'></span>
+                        <span className='punto6'></span>
+                        <span className='punto6-'></span>
+                        <span className='punto7'></span>
+                        <span className='punto7-'></span>
+                </div>
+            </div>
+
             <div className='tituloMapa'>
 
                 <h2>C  O  B  E  R  T  U  R  A </h2>

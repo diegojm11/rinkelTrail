@@ -1,6 +1,6 @@
 .tituloPrincipal{
     width: 100%;
-    height: 500px;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -19,12 +19,12 @@
     height: 60px;
     border-radius: 14px;
     align-content: center;
-text-align: start;
+    text-align: start;
     font-family: "Reddit Sans", sans-serif;
     font-style: italic;
-font-weight: 300;
-font-size: 26px;
-color: rgb(237, 237, 237);
+    font-weight: 300;
+    font-size: 26px;
+    color: rgb(237, 237, 237);
 }
 .p2{
     text-align: end;
@@ -47,4 +47,30 @@ color: rgb(58, 23, 23);
     font-size: 28px;
     
 color: rgb(58, 23, 23);
+}
+
+
+@media (max-width: 600px) {
+    .tituloBox{
+        width: 100%;
+        
+    
+    }
+    .p1{ 
+        width: 100%;
+        height: 100%;
+        padding: 5px;
+        border-radius: 0%;
+        margin-left: 1px ;
+       font-size: 17px;
+    text-align: start;
+    }
+    .p2{
+        padding-top: 60px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .p3{
+        font-size: 18px;
+    }
 }

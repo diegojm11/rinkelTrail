@@ -5,16 +5,49 @@
     display: flex;
     justify-content:space-around;
     align-items:center;
+    
+}
+
+.mapaBox{
+    width: 60%;
+}
+
+.mapaImg img{
+    width: 100%;
+    
+
+}
+.tituloMapa{
+    width: 80%;
+    
+}
+.puntosBox{
+width: 100%;
+}
+
+.mapa h2{
+    margin-bottom: 30px;
+    letter-spacing: 5px;
+    font-size: 23px;
+    font-family: 'inter', sans-serif;
+    font-weight: 400;
+    color: rgb(243, 13, 13);
+}
+.mapa h3{
+    font-size: 34px;  
+    font-family: "Titillium Web", sans-serif;
+    font-weight: 600;
+    color: rgb(240, 240, 240);
 }
 
 
 .punto1{
     position: absolute;
-    background-color: rgb(176, 2, 2);
+    background-color: rgb(187, 29, 29);
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    margin-left: -700px;
+    margin-left: 200px;
     margin-top: -190px;
 
     animation: punto-loop 1.3s infinite;
@@ -25,7 +58,7 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    margin-left: -700px;
+    margin-left: 200px;
     margin-top: -190px;
     animation: punto-loop 1.3s infinite;
 
@@ -38,10 +71,8 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    margin-left: -845px;
-    margin-top: -105px;
-    
-    margin-left: -1008px;
+    margin-left: 301px;
+    margin-top: -405px;
     
     animation: punto-loop 3s infinite;
     animation-delay: 1.5s;
@@ -52,8 +83,8 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    margin-left: -1008px;
-    margin-top: -105px;
+    margin-left: 405px;
+    margin-top: -612px;
     
     animation: punto-loop 3s infinite;
     animation-delay: 1.5s;
@@ -64,11 +95,11 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    margin-left: -926px;
-    margin-top: -392px;
+    margin-left: 310px;
+    margin-top: -692px;
     
     animation: punto-loop 3s infinite;
-    animation-delay: 1.0s;
+    animation-delay: 0.3s;
 }
 .punto3-{
     position: absolute;
@@ -76,8 +107,8 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    margin-left: -926px;
-    margin-top: -392px;
+    margin-left: 410px;
+    margin-top: -472px;
     animation: punto-loop 3s infinite;
     animation-delay: 1.0s;
 
@@ -88,98 +119,11 @@
     width: 10px;
     height: 10px;
     border-radius: 100%;
-    margin-left: -721px;
-    margin-top: -330px;
-    
-    animation: punto-loop 3s infinite;
-    animation-delay: 1.8s;
-}
-.punto4-{
-    position: absolute;
-    background-color: rgb(184, 19, 19);
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    margin-left: -721px;
-    margin-top: -330px;
-    animation: punto-loop 3s infinite;
-    animation-delay: 1.8s;
-
-}
-
-.punto5{
-    position: absolute;
-    background-color: rgb(176, 2, 2);
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    margin-left: -990px;
-    margin-top: 80px;
-    
-    animation: punto-loop 3s infinite;
-    animation-delay: 1.2s;
-}
-.punto5-{
-    position: absolute;
-    background-color: rgb(184, 19, 19);
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    margin-left: -990px;
-    margin-top: 80px;
-    animation: punto-loop 3s infinite;
-    animation-delay: 1.2s;
-
-}
-
-.punto6{
-    position: absolute;
-    background-color: rgb(176, 2, 2);
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    margin-left: -990px;
-    margin-top: 300px;
-    
-    animation: punto-loop 3s infinite;
-
-}
-.punto6-{
-    position: absolute;
-    background-color: rgb(184, 19, 19);
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    margin-left: -990px;
-    margin-top: 80px;
-    animation: punto-loop 3s infinite;
-}
-
-.punto7{
-    position: absolute;
-    background-color: rgb(184, 19, 19);
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    margin-left: -905px;
-    margin-top: -600px;
+    margin-left: 250px;
+    margin-top: -502px;
     
     animation: punto-loop 3s infinite;
     animation-delay: 0.2s;
-    
-}
-.punto7-{
-    position: absolute;
-    background-color: rgb(184, 19, 19);
-    width: 10px;
-    height: 10px;
-    border-radius: 100%;
-    margin-left: -905px;
-    margin-top: -600px;;
-    
-    animation: punto-loop 3s infinite;
-    animation-delay: 0.2s;
-
 }
 
 @keyframes punto-loop{
@@ -194,31 +138,46 @@
 }
 
 
-.mapaImg img{
-    width: 100%;
 
-}
-.tituloMapa{
-    width: 80%;
-    
-}
-.mapaImg{
-    width: 60%;
+@media (max-width: 600px) {
+    .mapa{
+        display: flex;
+        flex-direction: column;
+        justify-content:space-around;
+        align-items:center;
+    }
+    .tituloMapa{
+        position: absolute;
+        margin-top: -760px;
+    }
+    .mapaBox{
+        width: 130%;
+        position: relative;
+    }
+    .mapaImg{
+        width: 100%;
+    }
+    .mapaImg img{
+        width: 100%;
+    }
+   .puntosBox{
+    scale: calc(0.7);
+    margin-left: -60px;
+   }
 
-    
-    
-}
-.mapa h2{
-    margin-bottom: 30px;
-    letter-spacing: 5px;
-    font-size: 23px;
-    font-family: 'inter', sans-serif;
-    font-weight: 400;
-    color: rgb(243, 13, 13);
-}
-.mapa h3{
-    font-size: 34px;  
-    font-family: "Titillium Web", sans-serif;
-    font-weight: 600;
-    color: rgb(240, 240, 240);
+
+    .mapa h2{
+        margin-bottom: 30px;
+        letter-spacing: 5px;
+        font-size: 13px;
+        font-family: 'inter', sans-serif;
+        font-weight: 400;
+        color: rgb(243, 13, 13);
+    }
+    .mapa h3{
+        font-size: 20px;  
+        font-family: "Titillium Web", sans-serif;
+        font-weight: 600;
+        color: rgb(240, 240, 240);
+    }
 }
