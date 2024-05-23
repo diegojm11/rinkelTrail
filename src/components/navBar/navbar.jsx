@@ -34,11 +34,11 @@ const NavBar =() => {
         <div className='barra'> 
         
             <nav className={`navbar ${navbarScrolled ? 'navbar-scrolled' : ''}`} >
-              <div class="container-fluid">
+              <div>
                 
               
 
-                <div class="collapse navbar-collapse  " id="navbarNav">
+                <div  id="navbarNav">
                  
                   <ul  >
                     <li >

@@ -72,3 +72,25 @@
     width: 145px;
 }
 
+
+@media (max-width: 600px){
+    .slider{
+        position: relative;
+        height: 9rem;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        overflow: hidden;
+        background-color: rgb(255, 255, 255);
+        box-shadow: 0 .8rem 2.4rem -.2rem rgba(0, 0, 0, 0.422) ;
+
+    }
+    .marcas-logo img{
+        width: 125px;
+    }
+    #lema h4{ 
+        font-size: 30px;
+        
+    }
+    
+}

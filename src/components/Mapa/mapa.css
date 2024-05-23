@@ -18,7 +18,8 @@
 
 }
 .tituloMapa{
-    width: 80%;
+    width: 70%;
+    margin: 30px;
     
 }
 .puntosBox{
@@ -143,16 +144,13 @@ width: 100%;
     .mapa{
         display: flex;
         flex-direction: column;
-        justify-content:space-around;
         align-items:center;
     }
     .tituloMapa{
-        position: absolute;
-        margin-top: -760px;
+        
     }
     .mapaBox{
-        width: 130%;
-        position: relative;
+        width: 100%;
     }
     .mapaImg{
         width: 100%;
@@ -161,8 +159,8 @@ width: 100%;
         width: 100%;
     }
    .puntosBox{
-    scale: calc(0.7);
-    margin-left: -60px;
+    scale: calc(0.55);
+    margin-left: -80px;
    }
 
 
